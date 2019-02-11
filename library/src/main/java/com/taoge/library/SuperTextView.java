@@ -16,7 +16,7 @@
  * Last modified 17-4-20 下午5:32
  */
 
-package com.coorchice.library;
+package com.taoge.library;
 
 
 import android.annotation.TargetApi;
@@ -31,7 +31,6 @@ import android.graphics.LinearGradient;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PorterDuff;
-import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.Shader;
 import android.graphics.drawable.Drawable;
@@ -41,10 +40,10 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.TextView;
 
-import com.coorchice.library.image_engine.Engine;
-import com.coorchice.library.sys_adjusters.PressAdjuster;
-import com.coorchice.library.utils.LogUtils;
-import com.coorchice.library.utils.STVUtils;
+import com.taoge.library.image_engine.Engine;
+import com.taoge.library.sys_adjusters.PressAdjuster;
+import com.taoge.library.utils.LogUtils;
+import com.taoge.library.utils.STVUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -1882,7 +1881,7 @@ public class SuperTextView extends TextView {
 
     /**
      * 将一个网络图片作为SuperTextView的StateDrawable。
-     * 在调用这个函数前，建议开发者根据当前所使用的图片框架实现{@link com.coorchice.library.image_engine.Engine}，
+     * 在调用这个函数前，建议开发者根据当前所使用的图片框架实现{@link com.taoge.library.image_engine.Engine}，
      * 然后通过{@link ImageEngine#install(Engine)}为SuperTextView的ImageEngine安装一个全局引擎，开发者可以在
      * {@link Application#onCreate()}中进行配置（需要注意任何时候新安装的引擎总会替换掉原本的引擎）。
      * 在未设置引擎的情况下，SuperTextView仍然会通过内置的一个十分简易引擎去下载图片。
@@ -1928,7 +1927,7 @@ public class SuperTextView extends TextView {
 
     /**
      * 将一个网络图片作为SuperTextView的StateDrawable，调用这个方法StateDrawable将会被设置为背景模式。
-     * 在调用这个函数前，建议开发者根据当前所使用的图片框架实现{@link com.coorchice.library.image_engine.Engine}，
+     * 在调用这个函数前，建议开发者根据当前所使用的图片框架实现{@link com.taoge.library.image_engine.Engine}，
      * 然后通过{@link ImageEngine#install(Engine)}为SuperTextView的ImageEngine安装一个全局引擎，开发者可以在
      * {@link Application#onCreate()}中进行配置（需要注意任何时候新安装的引擎总会替换掉原本的引擎）。
      * 在未设置引擎的情况下，SuperTextView仍然会通过内置的一个十分简易引擎去下载图片。

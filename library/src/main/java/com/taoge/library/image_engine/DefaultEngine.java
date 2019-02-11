@@ -14,16 +14,15 @@
  * Last modified 18-5-13 上午11:36
  */
 
-package com.coorchice.library.image_engine;
+package com.taoge.library.image_engine;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLEncoder;
 
-import com.coorchice.library.ImageEngine;
-import com.coorchice.library.utils.ThreadPool;
+import com.taoge.library.ImageEngine;
+import com.taoge.library.utils.ThreadPool;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
@@ -41,7 +40,7 @@ import android.os.Looper;
  */
 
 /**
- * 在调用{@link com.coorchice.library.SuperTextView#setUrlImage(String)}后，
+ * 在调用{@link com.taoge.library.SuperTextView#setUrlImage(String)}后，
  * 如果没有通过{@link ImageEngine#install(Engine)}配置过图片下载引擎，将使用这个简易版的
  * 图片下载引擎。
  * 建议开发者根据项目情况自行实现{@link Engine}，然后通过{@link ImageEngine#install(Engine)}配置图片下载引擎。

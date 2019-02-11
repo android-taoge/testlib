@@ -14,7 +14,7 @@
  * Last modified 18-5-13 上午9:37
  */
 
-package com.coorchice.library.utils;
+package com.taoge.library.utils;
 
 import java.util.Locale;
 

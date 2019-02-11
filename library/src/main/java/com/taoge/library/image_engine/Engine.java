@@ -14,12 +14,12 @@
  * Last modified 18-5-13 上午10:51
  */
 
-package com.coorchice.library.image_engine;
+package com.taoge.library.image_engine;
 
 import android.app.Application;
 import android.graphics.drawable.Drawable;
 
-import com.coorchice.library.ImageEngine;
+import com.taoge.library.ImageEngine;
 
 
 /**

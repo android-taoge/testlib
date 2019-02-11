@@ -14,7 +14,7 @@
  * Last modified 16-11-24 上午11:38
  */
 
-package com.coorchice.library.utils;
+package com.taoge.library.utils;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

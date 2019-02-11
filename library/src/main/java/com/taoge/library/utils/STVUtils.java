@@ -14,7 +14,7 @@
  * Last modified 18-5-13 上午9:39
  */
 
-package com.coorchice.library.utils;
+package com.taoge.library.utils;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

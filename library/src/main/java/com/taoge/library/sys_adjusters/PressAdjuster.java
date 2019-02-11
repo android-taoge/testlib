@@ -14,7 +14,7 @@
  * Last modified 17-11-14 上午12:02
  */
 
-package com.coorchice.library.sys_adjusters;
+package com.taoge.library.sys_adjusters;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -23,7 +23,7 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.view.MotionEvent;
 
-import com.coorchice.library.SuperTextView;
+import com.taoge.library.SuperTextView;
 
 /**
  * Project Name:SuperTextView

@@ -43,10 +43,10 @@ android {
 
     publish {
         userOrg = 'taoge646'      //bintray注册的用户名
-        groupId = 'com.coorchice.library'         //compile引用时的第1部分groupId
-        artifactId = 'SuperTextView'     //compile引用时的第2部分项目名
+        groupId = 'com.taoge.library'         //compile引用时的第1部分groupId
+        artifactId = 'SuperText'     //compile引用时的第2部分项目名
         publishVersion = '1.0.1'    //compile引用时的第3部分版本号
-        desc = 'This is a superTextView same of eventbus extend library '
+        desc = 'This is a superTextView same of textView extend library '
         website = 'https://github.com/android-taoge/testlib.git'
     }
 
