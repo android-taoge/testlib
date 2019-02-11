@@ -21,7 +21,7 @@ group='com.github.chenBingX'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion '28.0.0'
+    buildToolsVersion '28.0.3'
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 28
@@ -37,17 +37,21 @@ android {
     productFlavors {
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
     publish {
         userOrg = 'taoge646'      //bintray注册的用户名
         groupId = 'com.coorchice.library'         //compile引用时的第1部分groupId
-        artifactId = 'RxBus'     //compile引用时的第2部分项目名
+        artifactId = 'SuperTextView'     //compile引用时的第2部分项目名
         publishVersion = '1.0.1'    //compile引用时的第3部分版本号
-        desc = 'This is a rxbus same of eventbus extend library '
-        website = 'https://github.com/wzgiceman/Rxbus'
+        desc = 'This is a superTextView same of eventbus extend library '
+        website = 'https://github.com/android-taoge/testlib.git'
     }
 
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
+    api fileTree(include: ['*.jar'], dir: 'libs')
 }
